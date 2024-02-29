@@ -46,3 +46,17 @@
 .item-1{
     color: darkgreen;
 }
+
+.item-2{
+    color: darkmagenta;
+}
+
+.item-3{
+    color: yellow;
+}
+
+.rodape{
+    background-color: palevioletred;
+    padding: 10px;
+    color: blue;
+}
