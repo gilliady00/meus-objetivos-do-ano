@@ -75,7 +75,7 @@ body{
     background-color: var(--cor-de-fundo);
 }
 
-.botao-ativo{
+.botao.ativo{
     background-color: var(--texto-fundo);
     color: black;
 }
@@ -89,10 +89,20 @@ body{
     border-right: 4px solid var(--cor-borda);
 }
 
-.abas-conteudo-ativa{
+.abas-conteudo.ativa{
     display: block;
 }
 
 .abas-conteudo{
     display: none;
+}
+
+.aba-conteudo-titulo-principal{
+    font-size: 28px;
+    text-align: center;
+}
+.aba-conteudo-titulo-secundario{
+    text-align: center;
+    color: var(--verde);
+    text-transform: uppercase;
 }
