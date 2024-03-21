@@ -81,13 +81,14 @@ body{
 }
 
 .abas-textos{
-    background-color: var{var(--texto-fundo)};
+    background-color: var(--texto-fundo);
     padding: 40px;
     border-radius: 0 0 40px 40px;
     border-bottom: 4px solid; var(--texto-fundo);
     border-left: 4px solid var(--cor-borda);
     border-right: 4px solid var(--cor-borda);
 }
+
 
 .abas-conteudo.ativa{
     display: block;
